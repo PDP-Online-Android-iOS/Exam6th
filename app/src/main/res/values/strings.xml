@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Exam6-Cards</string>
+    <string name="cards">Cards</string>
+    <string name="balance_3_480">Balance $3,480</string>
+    <string name="card_holder">Card holder</string>
+    <string name="ogabek_matyakubov">Ogabek Matyakubov</string>
+    <string name="expires">Expires</string>
+    <string name="starts">***</string>
+    <string name="add_new_card">Add New Card</string>
+    <string name="your_card_number">Your card number</string>
+    <string name="slash">/</string>
+    <string name="card_holder_name">Card Holder Name</string>
+</resources>

@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    android:id="@+id/item"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="10dp"
+    android:elevation="0dp"
+    app:cardCornerRadius="15dp"
+    android:layout_marginBottom="30dp"
+    app:cardBackgroundColor="@android:color/holo_green_dark">
+
+    <LinearLayout
+        android:id="@+id/item_card"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical">
+
+            <ImageView
+                android:id="@+id/iv_type"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:scaleType="centerCrop"
+                android:adjustViewBounds="true"
+                android:layout_margin="20dp"/>
+
+            <TextView
+                android:id="@+id/tv_balance"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textColor="@color/white"
+                android:text="@string/starts"
+                android:textStyle="normal"
+                android:textAllCaps="false"
+                android:textSize="20sp"
+                android:gravity="end"
+                android:layout_marginEnd="20dp"/>
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tv_number"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:textSize="25sp"
+            android:textAllCaps="true"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:gravity="center" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:gravity="center_vertical">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:gravity="center_vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#BFFFFFFF"
+                    android:text="@string/card_holder"
+                    android:textStyle="normal"
+                    android:textAllCaps="true"
+                    android:textSize="14sp"/>
+
+                <TextView
+                    android:id="@+id/tv_card_holder"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/white"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="20dp"
+                    android:textStyle="bold"
+                    android:textAllCaps="false"
+                    android:textSize="18sp"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:gravity="center_vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#BFFFFFFF"
+                    android:text="@string/expires"
+                    android:textStyle="normal"
+                    android:textAllCaps="true"
+                    android:textSize="14sp"/>
+
+                <TextView
+                    android:id="@+id/tv_expires"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/white"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="20dp"
+                    android:textStyle="bold"
+                    android:textAllCaps="false"
+                    android:textSize="18sp"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
